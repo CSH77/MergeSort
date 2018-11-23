@@ -59,7 +59,7 @@ void MergeSort(vector<int>& vec, int left, int right)
 
 int main(void)
 {
-    vector<int> vec = {3, 2, 4, 1, 7, 6, 5};
+    vector<int> vec = {3, 2, 4, 1, 7, 6, 5, 13, 10, 12};
 
 	MergeSort(vec, 0, vec.size() - 1);
 
